@@ -27,6 +27,7 @@ def send_request():
         # Display the response
         response_text.delete("1.0", tk.END)
         response_text.insert(tk.END, f"Status Code: {response.status_code}\n\n")
+        response_text.insert(tk.END, f"Headers: {response.headers}\n\n")
         response_text.insert(tk.END, response.text)
 
     except Exception as e:
