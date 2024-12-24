@@ -53,11 +53,11 @@ root.configure(bg="#2C2F33")  # Dark gray background
 # Custom fonts and colors
 header_font = font.Font(family="Helvetica", size=14, weight="bold")
 label_font = font.Font(family="Helvetica", size=11)
-entry_bg = "#23272A"  # Slightly lighter dark gray for entries
-entry_fg = "#FFFFFF"  # White text
-button_bg = "#7289DA"  # Blue button
-button_fg = "#FFFFFF"  # White button text
-text_bg = "#1E2124"  # Even darker for response background
+entry_bg = "#23272A"
+entry_fg = "#FFFFFF"
+button_bg = "#7289DA"
+button_fg = "#FFFFFF"
+text_bg = "#1E2124"
 
 # URL entry
 tk.Label(root, text="URL:", font=label_font, fg=entry_fg, bg=root["bg"]).pack(
